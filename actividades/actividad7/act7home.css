@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+}
+
+table {
+    border: 2px;
+    width: 55%;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+
+tfoot{
+    background-color: lightgray;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}

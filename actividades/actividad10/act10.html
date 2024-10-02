@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tabla Periódica</title>
+  <link rel="stylesheet" href="ac10.css">
+</head>
+
+<body>
+  <h1>Tabla Periódica de Elementos</h1>
+  <table>
+    <td class="no-metales-reactivos">
+      <div class="numero-negro">1</div>
+      <div class="simbolo-negro">H</div>
+      <div class="nombre-negro">Hidrógeno</div>
+    </td>
+
+
+    <td class="gases-nobles" id="he">
+      <div class="numero-negro">2</div>
+      <div class="simbolo-negro">H</div>
+      <div class="nombre-negro">Helio</div>
+    </td>
+
+    <tr>
+      <td class="metales-alcalinos">
+        <div class="numero-blanco">3</div>
+        <div class="simbolo-blanco">Li</div>
+        <div class="nombre-blanco">Litio</div>
+      </td>
+
+      <td class="metales-alcalinoterreos">
+        <div class="numero-blanco">4</div>
+        <div class="simbolo-blanco">Be</div>
+        <div class="nombre-blanco">Berilio</div>
+      </td>
+
+      <td class="metaloides" id="b">
+        <div class="numero-negro">5</div>
+        <div class="simbolo-negro">B</div>
+        <div class="nombre-negro">Boro</div>
+      </td>
+
+      <td class="no-metales-reactivos" id="c">
+        <div class="numero-negro">6</div>
+        <div class="simbolo-negro">C</div>
+        <div class="nombre-negro">Carbono</div>
+      </td>
+
+      <td class="no-metales-reactivos" id="n">
+        <div class="numero-negro">7</div>
+        <div class="simbolo-negro">N</div>
+        <div class="nombre-negro">Nitrogeno</div>
+      </td>
+
+      <td class="no-metales-reactivos" id="o">
+        <div class="numero-negro">8</div>
+        <div class="simbolo-negro">O</div>
+        <div class="nombre-negro">Oxigeno</div>
+      </td>
+
+      <td class="no-metales-reactivos" id="f">
+        <div class="numero-negro">9</div>
+        <div class="simbolo-negro">F</div>
+        <div class="nombre-negro">Flúor</div>
+      </td>
+
+      <td class="gases-nobles" id="ne">
+        <div class="numero-negro">10</div>
+        <div class="simbolo-negro">Ne</div>
+        <div class="nombre-negro">Neón</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="metales-alcalinos">
+        <div class="numero-blanco">11</div>
+        <div class="simbolo-blanco">Na</div>
+        <div class="nombre-blanco">Sodio</div>
+      </td>
+      <td class="metales-alcalinoterreos">
+        <div class="numero-blanco">12</div>
+        <div class="simbolo-blanco">Mg</div>
+        <div class="nombre-blanco">Magnesio</div>
+      </td>
+
+      <td class="metales-postransicionales" id="ai">
+        <div class="numero-negro">13</div>
+        <div class="simbolo-negro">Ai</div>
+        <div class="nombre-negro">Aluminio</div>
+      </td>
+
+      <td class="metaloides" id="si">
+        <div class="numero-negro">14</div>
+        <div class="simbolo-negro">Si</div>
+        <div class="nombre-negro">Sicilio</div>
+      </td>
+
+      <td class="no-metales-reactivos" id="p">
+        <div class="numero-negro">15</div>
+        <div class="simbolo-negro">P</div>
+        <div class="nombre-negro">Fósforo</div>
+      </td>
+
+
+      <td class="no-metales-reactivos" id="s">
+        <div class="numero-negro">16</div>
+        <div class="simbolo-negro">S</div>
+        <div class="nombre-negro">Azufre</div>
+      </td>
+
+
+      <td class="no-metales-reactivos" id="cl">
+        <div class="numero-negro">17</div>
+        <div class="simbolo-negro">Cl</div>
+        <div class="nombre-negro">Cloro</div>
+      </td>
+
+      <td class="gases-nobles" id="ar">
+        <div class="numero-negro">18</div>
+        <div class="simbolo-negro">Ar</div>
+        <div class="nombre-negro">Argón</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="metales-alcalinos">
+        <div class="numero-blanco">19</div>
+        <div class="simbolo-blanco">K</div>
+        <div class="nombre-blanco">Potasio</div>
+      </td>
+      <td class="metales-alcalinoterreos">
+        <div class="numero-blanco">20</div>
+        <div class="simbolo-blanco">Ca</div>
+        <div class="nombre-blanco">Calcio</div>
+      </td>
+
+      <td class="metales-transicionales">
+        <div class="numero-negro">21</div>
+        <div class="simbolo-negro">Sc</div>
+        <div class="nombre-negro">Escandio</div>
+      </td>
+
+      <td class="metales-transicionales" id="ti">
+        <div class="numero-negro">22</div>
+        <div class="simbolo-negro">Ti</div>
+        <div class="nombre-negro">Titanio</div>
+      </td>
+
+      <td class="metales-transicionales" id="v">
+        <div class="numero-negro">23</div>
+        <div class="simbolo-negro">V</div>
+        <div class="nombre-negro">Vanadio</div>
+      </td>
+
+      <td class="metales-transicionales" id="cr">
+        <div class="numero-negro">24</div>
+        <div class="simbolo-negro">Cr</div>
+        <div class="nombre-negro">Cromo</div>
+      </td>
+
+      <td class="metales-transicionales" id="mn">
+        <div class="numero-negro">25</div>
+        <div class="simbolo-negro">Mn</div>
+        <div class="nombre-negro">Magnesio</div>
+      </td>
+
+      <td class="metales-transicionales" id="fe">
+        <div class="numero-negro">26</div>
+        <div class="simbolo-negro">Fe</div>
+        <div class="nombre-negro">Hierro</div>
+      </td>
+
+      <td class="metales-transicionales" id="co">
+        <div class="numero-negro">27</div>
+        <div class="simbolo-negro">Co</div>
+        <div class="nombre-negro">Cobalto</div>
+      </td>
+
+      <td class="metales-transicionales" id="ni">
+        <div class="numero-negro">28</div>
+        <div class="simbolo-negro">Ni</div>
+        <div class="nombre-negro">Niquel</div>
+      </td>
+
+      <td class="metales-transicionales" id="cu">
+        <div class="numero-negro">29</div>
+        <div class="simbolo-negro">Cu</div>
+        <div class="nombre-negro">Cobre</div>
+      </td>
+
+      <td class="metales-postransicionales" id="zn">
+        <div class="numero-negro">30</div>
+        <div class="simbolo-negro">Zn</div>
+        <div class="nombre-negro">Zin</div>
+      </td>
+
+      <td class="metales-postransicionales" id="ga">
+        <div class="numero-negro">31</div>
+        <div class="simbolo-negro">Ga</div>
+        <div class="nombre-negro">Galio</div>
+      </td>
+
+      <td class="metaloides" id="ge">
+        <div class="numero-negro">32</div>
+        <div class="simbolo-negro">Ge</div>
+        <div class="nombre-negro">Germanio</div>
+      </td>
+
+      <td class="metaloides" id="as">
+        <div class="numero-negro">33</div>
+        <div class="simbolo-negro">As</div>
+        <div class="nombre-negro">Arsénico</div>
+      </td>
+
+      <td class="no-metales-reactivos" id="se">
+        <div class="numero-negro">34</div>
+        <div class="simbolo-negro">Se</div>
+        <div class="nombre-negro">Selenio</div>
+      </td>
+
+      <td class="no-metales-reactivos" id="br">
+        <div class="numero-negro">35</div>
+        <div class="simbolo-negro">Br</div>
+        <div class="nombre-negro">Bromo</div>
+      </td>
+
+      <td class="gases-nobles" id="kr">
+        <div class="numero-negro">36</div>
+        <div class="simbolo-negro">Kr</div>
+        <div class="nombre-negro">Kriptón</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="metales-alcalinos">
+        <div class="numero-blanco">37</div>
+        <div class="simbolo-blanco">Rb</div>
+        <div class="nombre-blanco">Rubidio</div>
+      </td>
+      <td class="metales-alcalinoterreos">
+        <div class="numero-blanco">38</div>
+        <div class="simbolo-blanco">Sr</div>
+        <div class="nombre-blanco">Estroncio</div>
+      </td>
+      <td class="metales-transicionales">
+        <div class="numero-negro">39</div>
+        <div class="simbolo-negro">Y</div>
+        <div class="nombre-negro">Itrio</div>
+      </td>
+
+      <td class="metales-transicionales" id="zr">
+        <div class="numero-negro">40</div>
+        <div class="simbolo-negro">Zr</div>
+        <div class="nombre-negro">Circonio</div>
+      </td>
+
+      <td class="metales-transicionales" id="nb">
+        <div class="numero-negro">41</div>
+        <div class="simbolo-negro">Nb</div>
+        <div class="nombre-negro">Niobio</div>
+      </td>
+
+      <td class="metales-transicionales" id="mo">
+        <div class="numero-negro">42</div>
+        <div class="simbolo-negro">Mo</div>
+        <div class="nombre-negro">Molibdeno</div>
+      </td>
+
+      <td class="metales-transicionales" id="tc">
+        <div class="numero-negro">43</div>
+        <div class="simbolo-negro">Tc</div>
+        <div class="nombre-negro">Tecnecio</div>
+      </td>
+
+      <td class="metales-transicionales" id="ru">
+        <div class="numero-negro">44</div>
+        <div class="simbolo-negro">Ru</div>
+        <div class="nombre-negro">Rutenio</div>
+      </td>
+
+      <td class="metales-transicionales" id="rh">
+        <div class="numero-negro">45</div>
+        <div class="simbolo-negro">Rh</div>
+        <div class="nombre-negro">Rodio</div>
+      </td>
+
+      <td class="metales-transicionales" id="pd">
+        <div class="numero-negro">46</div>
+        <div class="simbolo-negro">Pd</div>
+        <div class="nombre-negro">Paladio</div>
+      </td>
+
+      <td class="metales-transicionales" id="ag">
+        <div class="numero-negro">47</div>
+        <div class="simbolo-negro">Ag</div>
+        <div class="nombre-negro">Plata</div>
+      </td>
+
+      <td class="metales-postransicionales" id="cd">
+        <div class="numero-negro">48</div>
+        <div class="simbolo-negro">Cd</div>
+        <div class="nombre-negro">Cadmio</div>
+      </td>
+
+      <td class="metales-postransicionales" id="in">
+        <div class="numero-negro">49</div>
+        <div class="simbolo-negro">In</div>
+        <div class="nombre-negro">Indio</div>
+      </td>
+
+      <td class="metales-postransicionales" id="sn">
+        <div class="numero-negro">50</div>
+        <div class="simbolo-negro">Sn</div>
+        <div class="nombre-negro">Estaño</div>
+      </td>
+
+      <td class="metaloides" id="sb">
+        <div class="numero-negro">51</div>
+        <div class="simbolo-negro">Sb</div>
+        <div class="nombre-negro">Antimonio</div>
+      </td>
+
+      <td class="metaloides" id="te">
+        <div class="numero-negro">52</div>
+        <div class="simbolo-negro">Te</div>
+        <div class="nombre-negro">Telurio</div>
+      </td>
+
+      <td class="no-metales-reactivos" id="i">
+        <div class="numero-negro">53</div>
+        <div class="simbolo-negro">I</div>
+        <div class="nombre-negro">Yodo</div>
+      </td>
+
+      <td class="gases-nobles" id="xe">
+        <div class="numero-negro">54</div>
+        <div class="simbolo-negro">Xe</div>
+        <div class="nombre-negro">Xenón</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="metales-alcalinos">
+        <div class="numero-blanco">55</div>
+        <div class="simbolo-blanco">Cs</div>
+        <div class="nombre-blanco">Cesio</div>
+      </td>
+
+      <td class="metales-alcalinoterreos">
+        <div class="numero-blanco">56</div>
+        <div class="simbolo-blanco">Ba</div>
+        <div class="nombre-blanco">Bario</div>
+      </td>
+
+      <td class="lantanidos">
+        <div class="numero-blanco">57</div>
+        <div class="simbolo-blanco">La</div>
+        <div class="nombre-blanco">Lantano</div>
+      </td>
+
+      <td class="metales-transicionales" id="hf">
+        <div class="numero-negro">72</div>
+        <div class="simbolo-negro">Hf</div>
+        <div class="nombre-negro">Hafnio</div>
+      </td>
+
+      <td class="metales-transicionales" id="ta">
+        <div class="numero-negro">73</div>
+        <div class="simbolo-negro">Ta</div>
+        <div class="nombre-negro">Tántalo</div>
+      </td>
+      <td class="metales-transicionales" id="w">
+        <div class="numero-negro">74</div>
+        <div class="simbolo-negro">W</div>
+        <div class="nombre-negro">Wolframio</div>
+      </td>
+
+      <td class="metales-transicionales" id="re">
+        <div class="numero-negro">75</div>
+        <div class="simbolo-negro">Re</div>
+        <div class="nombre-negro">Renio</div>
+      </td>
+
+      <td class="metales-transicionales" id="os">
+        <div class="numero-negro">76</div>
+        <div class="simbolo-negro">Os</div>
+        <div class="nombre-negro">Osmio</div>
+      </td>
+
+      <td class="metales-transicionales" id="ir">
+        <div class="numero-negro">77</div>
+        <div class="simbolo-negro">Ir</div>
+        <div class="nombre-negro">Iridio</div>
+      </td>
+
+      <td class="metales-transicionales" id="pt">
+        <div class="numero-negro">78</div>
+        <div class="simbolo-negro">Pt</div>
+        <div class="nombre-negro">Platino</div>
+      </td>
+
+      <td class="metales-transicionales" id="au">
+        <div class="numero-negro">79</div>
+        <div class="simbolo-negro">Au</div>
+        <div class="nombre-negro">Oro</div>
+      </td>
+
+      <td class="metales-postransicionales" id="hg">
+        <div class="numero-negro">80</div>
+        <div class="simbolo-negro">Hg</div>
+        <div class="nombre-negro">Mercurio</div>
+      </td>
+
+      <td class="metales-postransicionales" id="ti">
+        <div class="numero-negro">81</div>
+        <div class="simbolo-negro">TI</div>
+        <div class="nombre-negro">Talío</div>
+      </td>
+
+      <td class="metales-postransicionales" id="pb">
+        <div class="numero-negro">82</div>
+        <div class="simbolo-negro">Pb</div>
+        <div class="nombre-negro">Plomo</div>
+      </td>
+
+      <td class="metales-postransicionales" id="bi">
+        <div class="numero-negro">83</div>
+        <div class="simbolo-negro">Bi</div>
+        <div class="nombre-negro">Bismuto</div>
+      </td>
+
+      <td class="metales-postransicionales" id="po">
+        <div class="numero-negro">84</div>
+        <div class="simbolo-negro">Po</div>
+        <div class="nombre-negro">Polonio</div>
+      </td>
+
+      <td class="metaloides" id="at">
+        <div class="numero-negro">85</div>
+        <div class="simbolo-negro">At</div>
+        <div class="nombre-negro">Astato</div>
+      </td>
+
+      <td class="gases-nobles" id="rn">
+        <div class="numero-negro">86</div>
+        <div class="simbolo-negro">Rn</div>
+        <div class="nombre-negro">Radón</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="metales-alcalinos">
+        <div class="numero-blanco">87</div>
+        <div class="simbolo-blanco">Fr</div>
+        <div class="nombre-blanco">Francio</div>
+      </td>
+      <td class="metales-alcalinoterreos">
+        <div class="numero-blanco">88</div>
+        <div class="simbolo-blanco">Ra</div>
+        <div class="nombre-blanco">Radio</div>
+      </td>
+      <td class="actonoides">
+        <div class="numero-negro">89</div>
+        <div class="simbolo-negro">Ac</div>
+        <div class="nombre-negro">Actinio</div>
+      </td>
+
+      <td class="metales-transicionales" id="rf">
+        <div class="numero-negro">104</div>
+        <div class="simbolo-negro">Rf</div>
+        <div class="nombre-negro">Rutherfordio</div>
+      </td>
+
+      <td class="metales-transicionales" id="db">
+        <div class="numero-negro">105</div>
+        <div class="simbolo-negro">Db</div>
+        <div class="nombre-negro">Dubnio</div>
+      </td>
+
+      <td class="metales-transicionales" id="sg">
+        <div class="numero-negro">106</div>
+        <div class="simbolo-negro">Sg</div>
+        <div class="nombre-negro">Seaborgio</div>
+      </td>
+
+      <td class="metales-transicionales" id="bh">
+        <div class="numero-negro">107</div>
+        <div class="simbolo-negro">Bh</div>
+        <div class="nombre-negro">Bohrio</div>
+      </td>
+
+      <td class="metales-transicionales" id="hs">
+        <div class="numero-negro">108</div>
+        <div class="simbolo-negro">Hs</div>
+        <div class="nombre-negro">Hasio</div>
+      </td>
+
+      <td class="propiedades-desc" id="mt">
+        <div class="numero-negro">109</div>
+        <div class="simbolo-negro">Mt</div>
+        <div class="nombre-negro">Meitnerio</div>
+      </td>
+
+      <td class="propiedades-desc" id="ds">
+        <div class="numero-negro">110</div>
+        <div class="simbolo-negro">Ds</div>
+        <div class="nombre-negro">Darmstatio</div>
+      </td>
+
+      <td class="propiedades-desc" id="rg">
+        <div class="numero-negro">111</div>
+        <div class="simbolo-negro">Rg</div>
+        <div class="nombre-negro">Roentgenio</div>
+      </td>
+
+      <td class="metales-postransicionales" id="cn">
+        <div class="numero-negro">112</div>
+        <div class="simbolo-negro">Cn</div>
+        <div class="nombre-negro">Copernico</div>
+      </td>
+
+      <td class="propiedades-desc" id="nh">
+        <div class="numero-negro">113</div>
+        <div class="simbolo-negro">Nh</div>
+        <div class="nombre-negro">Nihonio</div>
+      </td>
+
+      <td class="propiedades-desc" id="fl">
+        <div class="numero-negro">114</div>
+        <div class="simbolo-negro">Fl</div>
+        <div class="nombre-negro">Flerovio</div>
+      </td>
+
+      <td class="propiedades-desc" id="mc">
+        <div class="numero-negro">115</div>
+        <div class="simbolo-negro">Mc</div>
+        <div class="nombre-negro">Moscovio</div>
+      </td>
+
+      <td class="propiedades-desc" id="lv">
+        <div class="numero-negro">116</div>
+        <div class="simbolo-negro">Lv</div>
+        <div class="nombre-negro">Livermorio</div>
+      </td>
+
+      <td class="propiedades-desc" id="ts">
+        <div class="numero-negro">117</div>
+        <div class="simbolo-negro">Ts</div>
+        <div class="nombre-negro">Teneso</div>
+      </td>
+
+      <td class="propiedades-desc" id="og">
+        <div class="numero-negro">118</div>
+        <div class="simbolo-negro">Og</div>
+        <div class="nombre-negro">Oganeson</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="lantanidos" id="ce">
+        <div class="numero-blanco">58</div>
+        <div class="simbolo-blanco">Ce</div>
+        <div class="nombre-blanco">Cerio</div>
+      </td>
+
+      <td class="lantanidos" id="pr">
+        <div class="numero-blanco">59</div>
+        <div class="simbolo-blanco">Pr</div>
+        <div class="nombre-blanco">Praseodimio</div>
+      </td>
+
+      <td class="lantanidos" id="nd">
+        <div class="numero-blanco">60</div>
+        <div class="simbolo-blanco">Nd</div>
+        <div class="nombre-blanco">Neodimio</div>
+      </td>
+
+      <td class="lantanidos" id="pm">
+        <div class="numero-blanco">61</div>
+        <div class="simbolo-blanco">Pm</div>
+        <div class="nombre-blanco">Prometio</div>
+      </td>
+
+      <td class="lantanidos" id="sm">
+        <div class="numero-blanco">62</div>
+        <div class="simbolo-blanco">Sm</div>
+        <div class="nombre-blanco">Samario</div>
+      </td>
+
+      <td class="lantanidos" id="eu">
+        <div class="numero-blanco">63</div>
+        <div class="simbolo-blanco">Eu</div>
+        <div class="nombre-blanco">Europio</div>
+      </td>
+
+      <td class="lantanidos" id="gd">
+        <div class="numero-blanco">64</div>
+        <div class="simbolo-blanco">Gd</div>
+        <div class="nombre-blanco">Gadolinio</div>
+      </td>
+
+      <td class="lantanidos" id="tb">
+        <div class="numero-blanco">65</div>
+        <div class="simbolo-blanco">Tb</div>
+        <div class="nombre-blanco">Terbio</div>
+      </td>
+
+      <td class="lantanidos" id="dy">
+        <div class="numero-blanco">66</div>
+        <div class="simbolo-blanco">Dy</div>
+        <div class="nombre-blanco">Disprosio</div>
+      </td>
+
+      <td class="lantanidos" id="ho">
+        <div class="numero-blanco">67</div>
+        <div class="simbolo-blanco">Ho</div>
+        <div class="nombre-blanco">Holmio</div>
+      </td>
+
+      <td class="lantanidos" id="er">
+        <div class="numero-blanco">68</div>
+        <div class="simbolo-blanco">Er</div>
+        <div class="nombre-blanco">Erbio</div>
+      </td>
+
+      <td class="lantanidos" id="tm">
+        <div class="numero-blanco">69</div>
+        <div class="simbolo-blanco">Tm</div>
+        <div class="nombre-blanco">Tulio</div>
+      </td>
+
+      <td class="lantanidos" id="yb">
+        <div class="numero-blanco">70</div>
+        <div class="simbolo-blanco">Yb</div>
+        <div class="nombre-blanco">Iterbio</div>
+      </td>
+
+      <td class="lantanidos" id="lu">
+        <div class="numero-blanco">71</div>
+        <div class="simbolo-blanco">Lu</div>
+        <div class="nombre-blanco">Lutecio</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="actonoides" id="th">
+        <div class="numero-negro">90</div>
+        <div class="simbolo-negro">Th</div>
+        <div class="nombre-negro">Torio</div>
+      </td>
+
+      <td class="actonoides" id="pa">
+        <div class="numero-negro">91</div>
+        <div class="simbolo-negro">Pa</div>
+        <div class="nombre-negro">Protactinio</div>
+      </td>
+
+      <td class="actonoides" id="u">
+        <div class="numero-negro">92</div>
+        <div class="simbolo-negro">U</div>
+        <div class="nombre-negro">Uranio</div>
+      </td>
+
+      <td class="actonoides" id="np">
+        <div class="numero-negro">93</div>
+        <div class="simbolo-negro">Np</div>
+        <div class="nombre-negro">Neptunio</div>
+      </td>
+
+      <td class="actonoides" id="pu">
+        <div class="numero-negro">94</div>
+        <div class="simbolo-negro">Pu</div>
+        <div class="nombre-negro">Plutonio</div>
+      </td>
+
+      <td class="actonoides" id="am">
+        <div class="numero-negro">95</div>
+        <div class="simbolo-negro">Am</div>
+        <div class="nombre-negro">Americio</div>
+      </td>
+
+      <td class="actonoides" id="cm">
+        <div class="numero-negro">96</div>
+        <div class="simbolo-negro">Cm</div>
+        <div class="nombre-negro">Curio</div>
+      </td>
+
+      <td class="actonoides" id="bk">
+        <div class="numero-negro">97</div>
+        <div class="simbolo-negro">Bk</div>
+        <div class="nombre-negro">Berkelio</div>
+      </td>
+
+      <td class="actonoides" id="cf">
+        <div class="numero-negro">98</div>
+        <div class="simbolo-negro">Cf</div>
+        <div class="nombre-negro">Californio</div>
+      </td>
+
+      <td class="actonoides" id="es">
+        <div class="numero-negro">99</div>
+        <div class="simbolo-negro">Es</div>
+        <div class="nombre-negro">Einstenio</div>
+      </td>
+
+      <td class="actonoides" id="fm">
+        <div class="numero-negro">100</div>
+        <div class="simbolo-negro">Fm</div>
+        <div class="nombre-negro">Fermio</div>
+      </td>
+
+      <td class="actonoides" id="md">
+        <div class="numero-negro">101</div>
+        <div class="simbolo-negro">Md</div>
+        <div class="nombre-negro">Mendelevio</div>
+      </td>
+
+      <td class="actonoides" id="no">
+        <div class="numero-negro">102</div>
+        <div class="simbolo-negro">No</div>
+        <div class="nombre-negro">Nobeio</div>
+      </td>
+
+      <td class="actonoides" id="lr">
+        <div class="numero-negro">103</div>
+        <div class="simbolo-negro">Lr</div>
+        <div class="nombre-negro">Lawrencio</div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <li class="metalc">Metales alcalinos</li>
+      </td>
+    <tr>
+      <td>
+        <li class="metalct">Metales alcalinotérreos</li>
+      </td>
+    </tr>
+    </tr>
+    <tr>
+      <td>
+        <li class="mtlds">Metaloides</li>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <li class="actnds">Actonoides</li>
+      </td>
+    </tr>
+    <tr></tr>
+    <td>
+      <li class="nmr">No metales reactivos</li>
+    </td>
+    <tr>
+      <td>
+        <li class="prpdsc">Propiedades desconocidas</li>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <li class="mettrnsc">Metales transicionales</li>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <li class="gsnb">Gases nobles</li>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <li class="mettpstrnsc">Metales postransicionales</li>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <li class="lntds">Lantánidos</li>
+      </td>
+    </tr>
+
+  </table>
+</body>
+
+</html>

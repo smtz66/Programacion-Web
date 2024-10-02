@@ -1,0 +1,678 @@
+h1 {
+  text-align: center;
+  font-size: 22px;
+}
+
+table {
+  width: 100%;
+  position: relative;
+}
+
+td {
+  display: inline-block;
+  text-align: center;
+  margin: 4px;
+}
+
+.no-metales-reactivos {
+  width: 50px;
+  height: 50px;
+  background-color: #71f871;
+}
+
+.gases-nobles {
+  width: 50px;
+  height: 50px;
+  background-color: #f8bff2;
+}
+
+.metales-alcalinos {
+  width: 50px;
+  height: 50px;
+  background-color: #fd0000;
+}
+
+.metales-alcalinoterreos {
+  width: 50px;
+  height: 50px;
+  background-color: #f2961d;
+}
+
+.metales-transicionales {
+  width: 50px;
+  height: 50px;
+  background-color: #c4e6f0;
+}
+
+.lantanidos {
+  width: 50px;
+  height: 50px;
+  background-color: #3570f1;
+}
+
+.actonoides {
+  width: 50px;
+  height: 50px;
+  background-color: #21b876;
+}
+
+.metales-postransicionales {
+  width: 50px;
+  height: 50px;
+  background-color: #cf9bf5;
+}
+
+.metaloides {
+  width: 50px;
+  height: 50px;
+  background-color: #ffec1e;
+}
+
+.propiedades-desc {
+  width: 50px;
+  height: 50px;
+  background-color: #b5b5b5;
+}
+
+.numero-blanco {
+  font-size: 8px;
+  color: rgb(255, 255, 255);
+  text-align: right;
+}
+
+.simbolo-blanco {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+.nombre-blanco {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.numero-negro {
+  font-size: 8px;
+  color: rgb(0, 0, 0);
+  text-align: right;
+}
+
+.simbolo-negro {
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+
+.nombre-negro {
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+}
+
+#he {
+  float: right;
+}
+
+#b {
+  position: absolute;
+  left: 76%;
+}
+
+#c {
+  position: absolute;
+  left: 80%;
+}
+
+#n {
+  position: absolute;
+  left: 84%;
+}
+
+#o {
+  position: absolute;
+  left: 88%;
+}
+
+#f {
+  position: absolute;
+  left: 92%;
+}
+
+#ne {
+  position: absolute;
+  left: 96%;
+}
+
+#ai {
+  position: absolute;
+  left: 76%;
+}
+
+#si {
+  position: absolute;
+  left: 80%;
+}
+
+#p {
+  position: absolute;
+  left: 84%;
+}
+
+#s {
+  position: absolute;
+  left: 88%;
+}
+
+#cl {
+  position: absolute;
+  left: 92%;
+}
+
+#ar {
+  position: absolute;
+  left: 96%;
+}
+
+#ti {
+  position: absolute;
+  left: 40%;
+}
+
+#v {
+  position: absolute;
+  left: 44%;
+}
+
+#cr {
+  position: absolute;
+  left: 48%;
+}
+
+#mn {
+  position: absolute;
+  left: 52%;
+}
+
+#fe {
+  position: absolute;
+  left: 56%;
+}
+
+#co {
+  position: absolute;
+  left: 60%;
+}
+
+#ni {
+  position: absolute;
+  left: 64%;
+}
+
+#cu {
+  position: absolute;
+  left: 68%;
+}
+
+#zn {
+  position: absolute;
+  left: 72%;
+}
+
+#ga {
+  position: absolute;
+  left: 76%;
+}
+
+#ge {
+  position: absolute;
+  left: 80%;
+}
+
+#as {
+  position: absolute;
+  left: 84%;
+}
+
+#se {
+  position: absolute;
+  left: 88%;
+}
+
+#br {
+  position: absolute;
+  left: 92%;
+}
+
+#kr {
+  float: right;
+}
+
+#zr {
+  position: absolute;
+  left: 40%;
+}
+
+#nb {
+  position: absolute;
+  left: 44%;
+}
+
+#mo {
+  position: absolute;
+  left: 48%;
+}
+
+#tc {
+  position: absolute;
+  left: 52%;
+}
+
+#ru {
+  position: absolute;
+  left: 56%;
+}
+
+#rh {
+  position: absolute;
+  left: 60%;
+}
+
+#pd {
+  position: absolute;
+  left: 64%;
+}
+
+#ag {
+  position: absolute;
+  left: 68%;
+}
+
+#cd {
+  position: absolute;
+  left: 72%;
+}
+
+#in {
+  position: absolute;
+  left: 76%;
+}
+
+#sn {
+  position: absolute;
+  left: 80%;
+}
+
+#sb {
+  position: absolute;
+  left: 84%;
+}
+
+#te {
+  position: absolute;
+  left: 88%;
+}
+
+#i {
+  position: absolute;
+  left: 92%;
+}
+
+#xe {
+  position: absolute;
+  left: 96%;
+}
+
+#hf {
+  position: absolute;
+  left: 40%;
+}
+
+#ta {
+  position: absolute;
+  left: 44%;
+}
+
+#w {
+  position: absolute;
+  left: 48%;
+}
+
+#re {
+  position: absolute;
+  left: 52%;
+}
+
+#os {
+  position: absolute;
+  left: 56%;
+}
+
+#ir {
+  position: absolute;
+  left: 60%;
+}
+
+#pt {
+  position: absolute;
+  left: 64%;
+}
+
+#au {
+  position: absolute;
+  left: 68%;
+}
+
+#hg {
+  position: absolute;
+  left: 72%;
+}
+
+#ti {
+  position: absolute;
+  left: 76%;
+}
+
+#pb {
+  position: absolute;
+  left: 80%;
+}
+
+#bi {
+  position: absolute;
+  left: 84%;
+}
+
+#po {
+  position: absolute;
+  left: 88%;
+}
+
+#at {
+  position: absolute;
+  left: 92%;
+}
+
+#rn {
+  position: absolute;
+  left: 96%;
+}
+
+#rf {
+  position: absolute;
+  left: 40%;
+}
+
+#db {
+  position: absolute;
+  left: 44%;
+}
+
+#sg {
+  position: absolute;
+  left: 48%;
+}
+
+#bh {
+  position: absolute;
+  left: 52%;
+}
+
+#hs {
+  position: absolute;
+  left: 56%;
+}
+
+#mt {
+  position: absolute;
+  left: 60%;
+}
+
+#ds {
+  position: absolute;
+  left: 64%;
+}
+
+#rg {
+  position: absolute;
+  left: 68%;
+}
+
+#cn {
+  position: absolute;
+  left: 72%;
+}
+
+#nh {
+  position: absolute;
+  left: 76%;
+}
+
+#fl {
+  position: absolute;
+  left: 80%;
+}
+
+#mc {
+  position: absolute;
+  left: 84%;
+}
+
+#lv {
+  position: absolute;
+  left: 88%;
+}
+
+#ts {
+  position: absolute;
+  left: 92%;
+}
+
+#og {
+  position: absolute;
+  left: 96%;
+}
+
+#ce {
+  position: absolute;
+  left: 40%;
+  margin-top: 2%;
+}
+
+#pr {
+  position: absolute;
+  left: 44%;
+  margin-top: 2%;
+}
+
+#nd {
+  position: absolute;
+  left: 48%;
+  margin-top: 2%;
+}
+
+#pm {
+  position: absolute;
+  left: 52%;
+  margin-top: 2%;
+}
+
+#sm {
+  position: absolute;
+  left: 56%;
+  margin-top: 2%;
+}
+
+#eu {
+  position: absolute;
+  left: 60%;
+  margin-top: 2%;
+}
+
+#gd {
+  position: absolute;
+  left: 64%;
+  margin-top: 2%;
+}
+
+#tb {
+  position: absolute;
+  left: 68%;
+  margin-top: 2%;
+}
+
+#dy {
+  position: absolute;
+  left: 72%;
+  margin-top: 2%;
+}
+
+#ho {
+  position: absolute;
+  left: 76%;
+  margin-top: 2%;
+}
+
+#er {
+  position: absolute;
+  left: 80%;
+  margin-top: 2%;
+}
+
+#tm {
+  position: absolute;
+  left: 84%;
+  margin-top: 2%;
+}
+
+#yb {
+  position: absolute;
+  left: 88%;
+  margin-top: 2%;
+}
+
+#lu {
+  position: absolute;
+  left: 92%;
+  margin-top: 2%;
+}
+
+#th {
+  position: absolute;
+  left: 40%;
+  margin-top: 6%;
+}
+
+#pa {
+  position: absolute;
+  left: 44%;
+  margin-top: 6%;
+}
+
+#u {
+  position: absolute;
+  left: 48%;
+  margin-top: 6%;
+}
+
+#np {
+  position: absolute;
+  left: 52%;
+  margin-top: 6%;
+}
+
+#pu {
+  position: absolute;
+  left: 56%;
+  margin-top: 6%;
+}
+
+#am {
+  position: absolute;
+  left: 60%;
+  margin-top: 6%;
+}
+
+#cm {
+  position: absolute;
+  left: 64%;
+  margin-top: 6%;
+}
+
+#bk {
+  position: absolute;
+  left: 68%;
+  margin-top: 6%;
+}
+
+#cf {
+  position: absolute;
+  left: 72%;
+  margin-top: 6%;
+}
+
+#es {
+  position: absolute;
+  left: 76%;
+  margin-top: 6%;
+}
+
+#fm {
+  position: absolute;
+  left: 80%;
+  margin-top: 6%;
+}
+
+#md {
+  position: absolute;
+  left: 84%;
+  margin-top: 6%;
+}
+
+#no {
+  position: absolute;
+  left: 88%;
+  margin-top: 6%;
+}
+
+#lr {
+  position: absolute;
+  left: 92%;
+  margin-top: 6%;
+}
+
+.metalc {
+  background-color: #fd0000;
+}
+
+.metalct {
+  background-color: #f2961d;
+}
+
+.mtlds {
+  background-color: #ffec1e;
+}
+
+.actnds {
+  background-color: #21b876;
+}
+
+.nmr {
+  background-color: #71f871;
+}
+
+.prpdsc {
+  background-color: #b5b5b5;
+}
+
+.mettrnsc {
+  background-color: #c4e6f0;
+}
+
+.gsnb {
+  background-color: #f8bff2;
+}
+
+.mettpstrnsc {
+  background-color: #cf9bf5;
+}
+
+.lntds {
+  background-color: #3570f1;
+}
